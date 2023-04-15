@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    /* font-size: 62.5%; */
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+  }
+  #box {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 75%;
+    height: 70%;
+  }
+  header {
+    /* font-size: 6.4rem; */
+    margin-bottom: 20px;
+    font-weight: 400;
+  }
+  
+  form {
+    /* font-size: 2.4rem; */
+    font-weight: 300;
+    margin-top: 15px;
+  }
+  form input {
+    width: 70%;
+    background: transparent;
+    color: white;
+    border: none;
+    margin-left: 15px;
+    padding: 3px 15px;
+  }
+  
+  button {
+    width: 13rem;
+    height: 3.5rem;
+    background: white;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    /* font-weight: 300; */
+  }
+  button:hover{
+    width: 13rem;
+    height: 3.5rem;
+    background: grey;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    border-radius: 15px;
+  }
+  hr {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  #error{
+    margin: 30px;
+    color: greenyellow;
+  }
+  .error-message{
+    color: red;
+    margin-top: 0.2rem;
+  }
+  
